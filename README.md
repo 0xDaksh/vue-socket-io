@@ -1,35 +1,30 @@
-# vue-websocket [![NPM version](https://img.shields.io/npm/v/vue-websocket.svg)](https://www.npmjs.com/package/vue-websocket)
+# vue-websocket [![NPM version](https://img.shields.io/npm/v/vue-socket-io.svg)](https://www.npmjs.com/package/vue-socket-io)
 ![VueJS v1.x compatible](https://img.shields.io/badge/vue%201.x-compatible-green.svg)
 ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
-Websocket (socket.io) plugin for VueJS. Support namespaces.
-
+Vue-Socket-io (socket.io) plugin for VueJS.
+This is a fork of Vue-Websocket by icebob
 
 ## Install
 ### NPM
 You can install it via [NPM](http://npmjs.org/).
 ```
-$ npm install vue-websocket
-```
-### Manual
-Download zip package and unpack and add the `vue-websocket.js` file to your project from dist folder.
-```
-https://github.com/icebob/vue-websocket/archive/master.zip
+$ npm install vue-socket-io
 ```
 
 ## Usage
 Register the plugin, it will connect to `/`
 ```js
-import VueWebsocket from "vue-websocket";
-Vue.use(VueWebsocket);
+import VueSocketIO from "vue-socket-io";
+Vue.use(VueSocketIO);
 ```
 or connect to other address:
 ```js
-Vue.use(VueWebsocket, "ws://otherserver:8080");
+Vue.use(VueSocketIO, "ws://otherserver:8080");
 ```
 You can pass options too:
 ```js
-Vue.use(VueWebsocket, "ws://otherserver:8080", {
+Vue.use(VueSocketIO, "ws://otherserver:8080", {
 	reconnection: false
 });
 ```
@@ -105,10 +100,10 @@ npm test
 Please send pull requests improving the usage and fixing bugs, improving documentation and providing better examples, or providing some testing, because these things are important.
 
 ## License
-vue-websocket is available under the [MIT license](https://tldrlegal.com/license/mit-license).
+vue-socket-io is available under the [MIT license](https://tldrlegal.com/license/mit-license).
 
 ## Contact
 
-Copyright (C) 2016 Icebob
+Copyright (C) 2017 Daksh
 
-[![@icebob](https://img.shields.io/badge/github-icebob-green.svg)](https://github.com/icebob) [![@icebob](https://img.shields.io/badge/twitter-Icebobcsi-blue.svg)](https://twitter.com/Icebobcsi)
+[![@dakshmiglani](https://img.shields.io/badge/github-DakshMiglani-green.svg)](https://github.com/DakshMiglani)
