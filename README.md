@@ -1,4 +1,4 @@
-# vue-websocket [![NPM version](https://img.shields.io/npm/v/vue-socket-io.svg)](https://www.npmjs.com/package/vue-socket-io)
+[![NPM version](https://img.shields.io/npm/v/vue-socket-io.svg)](https://www.npmjs.com/package/vue-socket-io)
 ![VueJS v1.x compatible](https://img.shields.io/badge/vue%201.x-compatible-green.svg)
 ![VueJS v2.x compatible](https://img.shields.io/badge/vue%202.x-compatible-green.svg)
 
